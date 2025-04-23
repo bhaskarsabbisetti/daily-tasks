@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="sus.html" method="get">
+      <fieldset style="background-color:crimson;width: 60;">
+    <center>
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Andhra_Pradesh_State_Road_Transport_Corporation_logo.png" height="100" width="100">
+        <h3 style="color:azure;">ANDHRA PRADESH STATE ROAD TRANSPORT CORPORATION</h3>
+        <h4 style="color: azure;">GENERAL BUS PASS APPLICATION</h4>
+    </center>
+      </fieldset>
+      <br>
+    <fieldset > 
+        <legend  style="background-color: red;color: white;">APPLICANT DETAILS
+        </legend>
+                <br>
+                
+                <label for="Name">Name *</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="Name" pattern="[a-zA-Z ]+" autocomplete="off" placeholder="Enter here" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>Father's / Guardian's Name *</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" pattern="[a-zA-Z ]+" autocomplete="off" placeholder="Enter here" required ><br>
+                <br>
+                <label for="DoB">Date of birth *</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="date" id="DoB">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Gender">Gender *</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="Female" name="Gender" required>
+                <label for="Female">Female *</label>
+                <input type="radio" id="Male" name="Gender" required>
+                <label for="Male">Male *</label><br>
+                <br>
+                <label for="Age">Age</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" name="Age" id="Age">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Aadhar">Aadhar No:</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="Aadhar" id="Aadhar" maxlength="12" pattern="[0-9]+" autocomplete="off"><br>
+                <br>
+                <label for="WhatsApp No">WhatsApp No *</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" maxlength="10" pattern="[0-9]+" name="WhatsApp No" id="WhatsApp No" required autocomplete="off">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Email Id">Email Id *</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
+                <input type="text" name="Email Id" id="Email Id" required autocomplete="off"><br>
+                <br>
+                <label for="Photo">Photo *</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="file" name="Photo" id="Photo" required>
+               
+    </fieldset>
+<br>
+<br>
+        <fieldset>
+            <legend style="background-color:red;color: white;"> Address Details</legend>
+                <label for="address">Applicant Address</label>
+                <textarea name="address" id=""></textarea>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="District">District*</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="District" id="" >
+                    <option disabled selected value="select">---select---</option>
+                    <option value="vjy">VIJAYAWADA</option>
+                    <option value="rjy">RAJAMUNDRY</option>
+                    <option value="vkp">VIZAG</option>
+                </select><br>
+                <br>
+                <label for="Mandal">Mandal*</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="District" id="" >
+                    <option disabled selected value="select">---select---</option>
+                    <option value="vjy">VIJAYAWADA</option>
+                    <option value="rjy">RAJAMUNDRY</option>
+                    <option value="vkp">VIZAG</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Village">Village*</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="District" id="" >
+                    <option disabled selected value="select">---select---</option>
+                    <option value="vjy">VIJAYAWADA</option>
+                    <option value="rjy">RAJAMUNDRY</option>
+                    <option value="vkp">VIZAG</option>
+                </select>
+                <br>
+                <br>
+                <label for="Pincode">Pincode*</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="tel" pattern="[0-9]+" name="Pincode" id="Pincode" maxlength="5"><br>  
+        </fieldset>
+        <br>
+    <br>
+        <center>
+            <img src="https://c22blog.wordpress.com/wp-content/uploads/2010/10/input-black.gif" height="50" width="150"><br>
+            <input type="text" placeholder="Enter capcha here"><br>
+            <input type="submit" value="Submit"></center>
+    </form>
+    
+    
+
+</body>
+</html>
